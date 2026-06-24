@@ -1,31 +1,31 @@
 {
   "version": "2.0",
-  "dataset_id": "on004370",
-  "source": "openneuro",
-  "source_id": "ds004370",
+  "pipeline_stage": "enriched",
   "title": "PRIOS",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "van Blooijs D": {},
     "Blok S": {},
     "Huiskamp GJM": {},
     "Leijten FSS": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004370.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004370",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004370",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "Brain Imaging Data Structure Specification v1.6.0",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
@@ -36,7 +36,73 @@
     },
     {
       "funder_name": "NIH RO1MH122258"
+    },
+    {
+      "funder_name": "EpilepsieNL",
+      "award_number": "NEF17-07"
+    },
+    {
+      "funder_name": "EpilepsieNL",
+      "award_number": "NEF19-12"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01MH122258"
     }
   ],
-  "acknowledgements": "persons to acknowledge"
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".pial",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises intracranial electroencephalography (iEEG) recordings from 6 patients (ages 13-53 years) undergoing clinical evaluation for epilepsy surgery. Cortico-cortical evoked potentials (CCEPs) were recorded via electrocorticography (ECoG) during single-pulse electrical stimulation (SPES) in two conditions: awake clinical routine and under propofol-induced general anesthesia. The dataset investigates the effects of propofol on local effective brain networks using paired recordings from the same patients.",
+  "methods_description": "Cortico-cortical evoked potentials were recorded using electrocorticography (ECoG) during single-pulse electrical stimulation (SPES) in awake patients (clinical routine) and under general propofol anesthesia. Electrode positions were estimated using Freesurfer on individual subject MRI scans and converted to MNI305 space using surface-based non-linear transformation.",
+  "keywords": [
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "cortico-cortical evoked potentials"
+    },
+    {
+      "term": "single-pulse electrical stimulation"
+    },
+    {
+      "term": "propofol"
+    },
+    {
+      "term": "brain networks"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "anesthesia"
+    },
+    {
+      "term": "electrode localization"
+    },
+    {
+      "term": "Freesurfer"
+    },
+    {
+      "term": "MNI305"
+    }
+  ],
+  "source_hash": "731817c58b4d90c1c93b93d3463fdb9ec0650bc8a36f32f2a96597da06941e7e"
 }

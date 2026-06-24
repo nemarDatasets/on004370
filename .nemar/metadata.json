@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "PRIOS",
-  "description": "This dataset comprises intracranial EEG recordings from 6 patients (ages 13-53 years) undergoing clinical evaluation for epilepsy surgery. Cortico-cortical evoked potentials (CCEPs) were recorded via electrocorticography (ECoG) during single-pulse electrical stimulation (SPES) in two conditions: during awake clinical routine and under propofol-induced general anesthesia. The dataset is organized according to BIDS specification and includes electrode localization in MNI305 space derived from individual MRI scans processed with Freesurfer.",
-  "methods_description": "Cortico-cortical evoked potentials were recorded using electrocorticography (ECoG) during single-pulse electrical stimulation (SPES) in awake patients (clinical routine) and under propofol anesthesia. Electrode positions were estimated using Freesurfer on individual subject MRI scans and converted to MNI305 space using surface-based non-linear transformation.",
+  "description": "This dataset comprises intracranial EEG recordings from 6 patients (ages 13-53 years) undergoing clinical evaluation for epilepsy surgery. Cortico-Cortical Evoked Potentials (CCEPs) were recorded via electrocorticography (ECoG) during single-pulse electrical stimulation (SPES) in two conditions: during awake clinical routine and under propofol-induced general anesthesia. The dataset investigates the effects of propofol on local effective brain networks and is organized according to the Brain Imaging Data Structure (BIDS) specification.",
+  "methods_description": "Cortico-Cortical Evoked Potentials (CCEPs) were recorded using electrocorticography (ECoG) during single-pulse electrical stimulation (SPES) in awake patients (SPES-clinical) and under general propofol anesthesia (SPES-propofol). Electrode positions were estimated using Freesurfer on individual subject MRI scans and converted to MNI305 space using surface-based non-linear transformation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,16 +28,7 @@
       "term": "CCEP"
     },
     {
-      "term": "single-pulse electrical stimulation"
-    },
-    {
-      "term": "SPES"
-    },
-    {
       "term": "propofol"
-    },
-    {
-      "term": "propofol anesthesia"
     },
     {
       "term": "anesthesia"
@@ -46,31 +37,16 @@
       "term": "epilepsy"
     },
     {
-      "term": "brain networks"
-    },
-    {
-      "term": "effective connectivity"
-    },
-    {
-      "term": "local effective brain networks"
+      "term": "epilepsy surgery"
     },
     {
       "term": "intracranial EEG"
     },
     {
-      "term": "electrode localization"
+      "term": "brain networks"
     },
     {
-      "term": "MNI305"
-    },
-    {
-      "term": "Freesurfer"
-    },
-    {
-      "term": "structural MRI"
-    },
-    {
-      "term": "BIDS"
+      "term": "effective connectivity"
     }
   ],
   "related_identifiers": [

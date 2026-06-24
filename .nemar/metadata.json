@@ -1,0 +1,42 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004370",
+  "source": "openneuro",
+  "source_id": "ds004370",
+  "title": "PRIOS",
+  "authors": {
+    "van Blooijs D": {},
+    "Blok S": {},
+    "Huiskamp GJM": {},
+    "Leijten FSS": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004370.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "Brain Imaging Data Structure Specification v1.6.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "EpilepsieNL #17-07"
+    },
+    {
+      "funder_name": "EpilepsieNL #19-12"
+    },
+    {
+      "funder_name": "NIH RO1MH122258"
+    }
+  ],
+  "acknowledgements": "persons to acknowledge"
+}

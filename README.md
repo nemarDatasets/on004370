@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004370-blue)](https://doi.org/10.82901/nemar.on004370)
+
 # Dataset description
 This dataset consists of 6 patients age 13-53 years old where Cortico-Cortical Evoked Potentials (CCEPs) were recorded with Electro-CorticoGraphy (ECoG) during single pulse electrical stimulation (SPES) in the awake patient for clinical routine (SPES-clinical) and under general propofol-anesthesia (SPES-propofol). 
 

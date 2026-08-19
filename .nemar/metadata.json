@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "PRIOS",
-  "description": "This dataset comprises intracranial EEG recordings from 6 patients (ages 13-53 years) undergoing clinical evaluation for epilepsy surgery. Cortico-Cortical Evoked Potentials (CCEPs) were recorded via electrocorticography (ECoG) during single-pulse electrical stimulation (SPES) in two conditions: during awake clinical routine and under propofol-induced general anesthesia. The dataset investigates the effects of propofol on local effective brain networks and is organized according to the Brain Imaging Data Structure (BIDS) specification.",
-  "methods_description": "Cortico-Cortical Evoked Potentials (CCEPs) were recorded using electrocorticography (ECoG) during single-pulse electrical stimulation (SPES) in awake patients (SPES-clinical) and under general propofol anesthesia (SPES-propofol). Electrode positions were estimated using Freesurfer on individual subject MRI scans and converted to MNI305 space using surface-based non-linear transformation.",
+  "description": "This dataset contains intracranial EEG (ECoG) recordings from 6 epilepsy patients (ages 13-53) who underwent Cortico-Cortical Evoked Potential (CCEP) mapping via single pulse electrical stimulation (SPES), both in the awake state during clinical routine and under general propofol anesthesia. The data were collected to investigate the effect of propofol on local effective brain networks. Electrode positions were estimated using individual MRI-based Freesurfer reconstructions and co-registered to MNI305 space.",
+  "methods_description": "CCEPs were recorded with ECoG during single pulse electrical stimulation (SPES) performed while patients were awake (clinical routine, SPES-clinical) and under general propofol anesthesia (SPES-propofol). Electrode positions were estimated using Freesurfer reconstructions of individual subject MRI scans and converted to MNI305 space via surface-based non-linear transformation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,34 +19,28 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
-      "term": "ECoG"
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
     },
     {
-      "term": "cortico-cortical evoked potentials"
+      "term": "Propofol",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015742"
     },
     {
-      "term": "CCEP"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "propofol"
-    },
-    {
-      "term": "anesthesia"
-    },
-    {
-      "term": "epilepsy"
-    },
-    {
-      "term": "epilepsy surgery"
-    },
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "brain networks"
+      "term": "single pulse electrical stimulation"
     },
     {
       "term": "effective connectivity"
+    },
+    {
+      "term": "iEEG"
     }
   ],
   "related_identifiers": [
@@ -56,33 +50,27 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004370",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004370.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004370",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
-    {
-      "funder_name": "EpilepsieNL #17-07"
-    },
-    {
-      "funder_name": "EpilepsieNL #19-12"
-    },
     {
       "funder_name": "NIH RO1MH122258"
     },
     {
       "funder_name": "EpilepsieNL",
-      "award_number": "NEF17-07"
+      "award_number": "17-07"
     },
     {
       "funder_name": "EpilepsieNL",
-      "award_number": "NEF19-12"
+      "award_number": "19-12"
     },
     {
       "funder_name": "NIH",

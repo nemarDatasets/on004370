@@ -1,3 +1,6 @@
+1.0.3 2026-10-22
+  - 2026-10-19 electrode locations: add coordsystem.json MNI305/mm next to 7 electrodes.tsv (7 files). README: section 'Electrode locations (19 Oct 2026)'.
+
 1.0.2 2023-12-16
   - added N1-peak-amplitudes to derivatives
 1.0.1 2022-12-19

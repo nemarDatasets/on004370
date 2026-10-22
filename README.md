@@ -39,3 +39,9 @@ We thank all patients for participating in this study.
 
 # Funding
 Research reported in this publication was supported by EpilepsieNL under Award Number NEF17-07 (DvB) and NEF 19-12 (DvB, SB) and the National Institute of Mental Health of the National Institutes of Health under Award Number R01MH122258 (DvB, the content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health). 
+
+## Electrode locations (19 Oct 2026)
+
+Add coordsystem.json MNI305/mm next to 7 electrodes.tsv. Evidence: README: "All shared electrode positions were converted to MNI305 space using the Freesurfer surface based non-linear transformation"; every *_electrodes.json: "x position of the electrode in MNI305 coordinates".
+
+The evidence for this change is stated in this section. This dataset mirrors OpenNeuro; the same change belongs upstream.

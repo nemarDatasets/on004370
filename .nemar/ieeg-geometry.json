@@ -1,0 +1,209 @@
+{
+  "paths": {
+    "sub-PRIOS01/ses-1/ieeg/sub-PRIOS01_ses-1_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "eb145c2b04caacef846811ff91e7291a6c4dd54f",
+          "path": "sub-PRIOS01/ses-1/ieeg/sub-PRIOS01_ses-1_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "label-inference:README",
+      "output_sha256": "fc550cc6fdb93e52f64bd2282b0cb65866e7bd8e7f1fa40e9bf5bd12571b29c0",
+      "verification": {
+        "grade": "specific",
+        "inside_evaluated": false,
+        "inside_fraction": null,
+        "max_mm": 1.033,
+        "median_mm": 0.679,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 48,
+        "n_used": 48,
+        "near_or_inside_fraction": null,
+        "offset_applied": null,
+        "p90_mm": 0.97,
+        "passed": true,
+        "reason": null,
+        "reference": "fsaverage",
+        "rule": "median <= 2.0 mm"
+      }
+    },
+    "sub-PRIOS02/ses-1/ieeg/sub-PRIOS02_ses-1_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "45fa54b1488d72dab37ad94166c22f6fb8c6a5f0",
+          "path": "sub-PRIOS02/ses-1/ieeg/sub-PRIOS02_ses-1_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "label-inference:README",
+      "output_sha256": "1faf49441e5aae1679b128324642f3ba069ea291829696e661d2d78a2e193422",
+      "verification": {
+        "grade": "specific",
+        "inside_evaluated": false,
+        "inside_fraction": null,
+        "max_mm": 1.366,
+        "median_mm": 0.742,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 80,
+        "n_used": 80,
+        "near_or_inside_fraction": null,
+        "offset_applied": null,
+        "p90_mm": 1.059,
+        "passed": true,
+        "reason": null,
+        "reference": "fsaverage",
+        "rule": "median <= 2.0 mm"
+      }
+    },
+    "sub-PRIOS03/ses-1/ieeg/sub-PRIOS03_ses-1_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "f3645cbda165c328e3e5006ffa0915e1163499ed",
+          "path": "sub-PRIOS03/ses-1/ieeg/sub-PRIOS03_ses-1_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "label-inference:README",
+      "output_sha256": "a1f37b31718729063ac94d47aec728c46baffdf43ea33c96840e4b89b2969fd8",
+      "verification": {
+        "grade": "specific",
+        "inside_evaluated": false,
+        "inside_fraction": null,
+        "max_mm": 1.288,
+        "median_mm": 0.605,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 64,
+        "n_used": 64,
+        "near_or_inside_fraction": null,
+        "offset_applied": null,
+        "p90_mm": 1.007,
+        "passed": true,
+        "reason": null,
+        "reference": "fsaverage",
+        "rule": "median <= 2.0 mm"
+      }
+    },
+    "sub-PRIOS04/ses-1/ieeg/sub-PRIOS04_ses-1_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "53b3a5371476bfdf74199aa204208d6595660bea",
+          "path": "sub-PRIOS04/ses-1/ieeg/sub-PRIOS04_ses-1_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "label-inference:README",
+      "output_sha256": "1982b818be995ceaa76207a260bacb00cff2a8fe0579efc3170122ce011e3978",
+      "verification": {
+        "grade": "specific",
+        "inside_evaluated": false,
+        "inside_fraction": null,
+        "max_mm": 1.146,
+        "median_mm": 0.62,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 56,
+        "n_used": 56,
+        "near_or_inside_fraction": null,
+        "offset_applied": null,
+        "p90_mm": 0.954,
+        "passed": true,
+        "reason": null,
+        "reference": "fsaverage",
+        "rule": "median <= 2.0 mm"
+      }
+    },
+    "sub-PRIOS05/ses-1/ieeg/sub-PRIOS05_ses-1_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "c6b0d32e947886d40c89dceeeff1a6be33f8bcff",
+          "path": "sub-PRIOS05/ses-1/ieeg/sub-PRIOS05_ses-1_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "label-inference:README",
+      "output_sha256": "b00287e17c1cb673f4c9283541fcd439ee3d5f76d45cfef3f70243e63f9a9be3",
+      "verification": {
+        "grade": "specific",
+        "inside_evaluated": false,
+        "inside_fraction": null,
+        "max_mm": 1.218,
+        "median_mm": 0.655,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 64,
+        "n_used": 64,
+        "near_or_inside_fraction": null,
+        "offset_applied": null,
+        "p90_mm": 1.011,
+        "passed": true,
+        "reason": null,
+        "reference": "fsaverage",
+        "rule": "median <= 2.0 mm"
+      }
+    },
+    "sub-PRIOS06/ses-1/ieeg/sub-PRIOS06_ses-1_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "6f5527e22941932efa2e63f4944f93c86e66a511",
+          "path": "sub-PRIOS06/ses-1/ieeg/sub-PRIOS06_ses-1_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "label-inference:README",
+      "output_sha256": "a18adebf3392e5b863667ab3369970c87a6c832e5aca285ccd40b85f4ae9902c",
+      "verification": {
+        "grade": "specific",
+        "inside_evaluated": false,
+        "inside_fraction": null,
+        "max_mm": 1.097,
+        "median_mm": 0.643,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 40,
+        "n_used": 40,
+        "near_or_inside_fraction": null,
+        "offset_applied": null,
+        "p90_mm": 0.898,
+        "passed": true,
+        "reason": null,
+        "reference": "fsaverage",
+        "rule": "median <= 2.0 mm"
+      }
+    },
+    "sub-PRIOS09/ses-1/ieeg/sub-PRIOS09_ses-1_coordsystem.json": {
+      "inputs": [
+        {
+          "blob": "e2f0e4e62e19050dfd50fa125f5e8fd77c631a97",
+          "path": "sub-PRIOS09/ses-1/ieeg/sub-PRIOS09_ses-1_electrodes.tsv"
+        }
+      ],
+      "kind": "coordsystem",
+      "method": "label-inference:README",
+      "output_sha256": "de09062bef5857c3f387b310606dec0d851e83b1fc365bcffd87bea07158f9ba",
+      "verification": {
+        "grade": "specific",
+        "inside_evaluated": false,
+        "inside_fraction": null,
+        "max_mm": 1.264,
+        "median_mm": 0.765,
+        "n_ambiguous": 0,
+        "n_left_out": 0,
+        "n_total": 56,
+        "n_used": 56,
+        "near_or_inside_fraction": null,
+        "offset_applied": null,
+        "p90_mm": 0.986,
+        "passed": true,
+        "reason": null,
+        "reference": "fsaverage",
+        "rule": "median <= 2.0 mm"
+      }
+    }
+  },
+  "pipeline_version": "0.1.0",
+  "schema": 1
+}

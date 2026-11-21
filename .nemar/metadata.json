@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PRIOS",
-  "description": "The PRIOS dataset contains electrocorticography (ECoG) recordings from 6 patients aged 13-53 years. Cortico-cortical evoked potentials (CCEPs) were elicited by single pulse electrical stimulation (SPES), both in the awake patient during clinical routine and under general propofol anesthesia in the operating room. The data support investigation of how propofol affects local effective brain networks.",
-  "methods_description": "CCEPs were recorded with subdural ECoG during single pulse electrical stimulation, either in the awake state for clinical purposes (SPES-clinical) or under propofol anesthesia (SPES-propofol). Electrode positions were estimated by running Freesurfer on each subject's MRI and converted to MNI305 space using the Freesurfer surface-based non-linear transformation.",
+  "description": "This dataset contains Cortico-Cortical Evoked Potentials (CCEPs) recorded with electrocorticography (ECoG) in 6 patients aged 13-53 years during single pulse electrical stimulation (SPES). Recordings were made in the awake state for clinical routine (SPES-clinical) and under general propofol anesthesia (SPES-propofol). The data support investigation of the effect of propofol on local effective brain networks. Electrode positions are provided in MNI305 space.",
+  "methods_description": "CCEPs were recorded with ECoG during single pulse electrical stimulation, in awake patients for clinical routine and under propofol anesthesia in the operating room. Electrode positions were estimated by running FreeSurfer on each subject's MRI and converted to MNI305 space using the FreeSurfer surface-based non-linear transformation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,7 +22,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
-      "term": "cortico-cortical evoked potentials"
+      "term": "Cortico-cortical evoked potentials"
     },
     {
       "term": "single pulse electrical stimulation"
@@ -33,9 +33,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D015742"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "term": "epilepsy"
     }
   ],
   "related_identifiers": [
@@ -74,7 +72,7 @@
       "award_number": "NEF19-12"
     },
     {
-      "funder_name": "National Institutes of Health",
+      "funder_name": "NIH",
       "award_number": "R01MH122258"
     }
   ],
@@ -96,5 +94,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "8ca34fada640361e432c51b27b62b117cf85bba4a77a50ed7d21563b1d51dc02"
+  "source_hash": "9a2708c19ecfe9a583e953a18c2f83faadb5a4a2d5d99bb5e504963cc93929e4"
 }

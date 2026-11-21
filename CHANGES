@@ -1,3 +1,10 @@
+1.0.3 2026-10-22
+  - Correct generic event-schema task entities using existing source event-table filename tokens.
+    Retain 7 exact original schemas under sourcedata/generic-event-schemas at mirrored
+    relative paths and supply 14 exact-byte task-specific copies. No table, recording,
+    coordinate, clinical-value or ignore-rule changes.
+  - 2026-10-19 electrode locations: add coordsystem.json MNI305/mm next to 7 electrodes.tsv (7 files). README: section 'Electrode locations'.
+
 1.0.2 2023-12-16
   - added N1-peak-amplitudes to derivatives
 1.0.1 2022-12-19

@@ -39,3 +39,10 @@ We thank all patients for participating in this study.
 
 # Funding
 Research reported in this publication was supported by EpilepsieNL under Award Number NEF17-07 (DvB) and NEF 19-12 (DvB, SB) and the National Institute of Mental Health of the National Institutes of Health under Award Number R01MH122258 (DvB, the content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health). 
+
+## Electrode locations
+
+Electrode positions are given in the MNI305 coordinate system, in millimeters.
+They were estimated by running FreeSurfer on each subject's MRI scan and converted to MNI305 with the FreeSurfer surface-based non-linear transformation, as described above ("All shared electrode positions were converted to MNI305 space using the Freesurfer surface based non-linear transformation").
+Each `*_electrodes.json` describes the x position of the electrode as "x position of the electrode in MNI305 coordinates".
+A `coordsystem.json` next to the `electrodes.tsv` files of subjects PRIOS01 to PRIOS06 and PRIOS09 declares this coordinate system.

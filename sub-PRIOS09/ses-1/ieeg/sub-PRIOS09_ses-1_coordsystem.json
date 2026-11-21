@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "MNI305",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateProcessingDescription": "Electrode positions estimated with FreeSurfer on the individual MRI and converted to MNI305 with the FreeSurfer surface-based non-linear transformation (README)."
+}
